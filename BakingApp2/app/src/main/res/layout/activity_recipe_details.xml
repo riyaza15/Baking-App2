@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#93d7f4"
+    tools:context="com.example.riyaza.bankingapp2.RecipeDetailsActivity">
+
+
+    <FrameLayout
+        android:id="@+id/ingredients_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#71d8f5"
+        android:padding="1dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/steps_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#96e2f1"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_container"></FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

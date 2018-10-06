@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/steps_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stepId"
+        android:layout_width="27dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/step_short_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/stepId"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="10dp"
+        tools:text="5" />
+
+
+
+</android.support.constraint.ConstraintLayout>
